@@ -1,2 +1,3 @@
 # Demo page
-[https://zycio.github.io/react-example-routing] Open demo page
+[Open demo page](https://zycio.github.io/react-example-routing)
+
