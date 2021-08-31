@@ -6,7 +6,7 @@ import classes from './Content.module.scss';
 export const ContentTemplate = () => {
   const routes = appRoutes
     .map(route => (
-      <Route exact path={`${process.env.PUBLIC_URL}/react-example-routing/${route.path}`} key={route.name}>
+      <Route exact path={route.path} key={route.name}>
           <DynamicLoader component={route.component} />
       </Route>
     ));
@@ -15,7 +15,7 @@ export const ContentTemplate = () => {
     <div className={classes.Content}>
       <Switch>
         <Route exact path="/">
-          <Redirect to={`${process.env.PUBLIC_URL}/react-example-routing/${appRoutes[0].path}`} />
+          <Redirect to={appRoutes[0].path} />
         </Route>
         { routes }
         <Route path="*" exact>
