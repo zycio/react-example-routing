@@ -1,0 +1,2 @@
+(this["webpackJsonpexample-app"]=this["webpackJsonpexample-app"]||[]).push([[6],{26:function(a,e,n){"use strict";n.r(e),n.d(e,"HazmatPageTemplate",(function(){return c}));var t=n(0),i=n(12),r=n(1),c=function(){var a=i.a.find((function(a){return"Hazmat"===a.name}));return Object(r.jsxs)(t.Fragment,{children:[Object(r.jsx)("h1",{children:"Hazmat"}),Object(r.jsx)("img",{src:null===a||void 0===a?void 0:a.image,alt:null===a||void 0===a?void 0:a.name})]})}}}]);
+//# sourceMappingURL=6.e237eb1e.chunk.js.map
