@@ -1,0 +1,40 @@
+@import '../../../index.colors.scss';
+@import '../../../index.variables.scss';
+
+nav {
+  display: flex;
+
+  a {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    flex: 1;
+
+    &.active,
+    &:hover {
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      background: linear-gradient(0, $seconary, $primary);
+    }
+
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+
+    img {
+      width: 100%;
+      height: 51.2px;
+    }
+
+    span {
+      font-size: 12px;
+      line-height: 16px;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  }
+}
